@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaFilleDuCode - Portfolio Développeuse</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Personnalisé -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">LaFilleDuCode</a>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact" class="nav-cta">Me Contacter</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- SECTION HÉRO -->
+    <header class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-greeting">Bonjour, je suis</span>
+                <h1>LaFilleDuCode</h1>
+                <h2>Développeuse & Créatrice d'expériences interactives</h2>
+                <p>Passionnée par la programmation et la création de jeux vidéo, je conçois des expériences ludiques avec un code propre et des designs soignés.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Voir mes projets <i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="https://github.com/LaFilleDuCode" target="_blank" class="btn btn-secondary"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar-wrapper">
+                    <img src="assets/images/Pp.png" alt="LaFilleDuCode Avatar" onerror="this.src='https://placehold.co/400x400/5c3d2a/ffebcc?text=Avatar'">
+                    <div class="decoration-circle"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION À PROPOS & COMPÉTENCES -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>À propos de moi</h2>
+                <div class="header-line"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Développeuse basée en France, je me spécialise dans la création de jeux vidéo et le développement app. J'aime particulièrement allier logique de programmation rigoureuse et direction artistique chaleureuse.</p>
+                    <p>Actuellement en train de perfectionner mes compétences sur <strong>Godot</strong>, je suis toujours à la recherche de nouveaux défis techniques.</p>
+                    
+                    <div class="social-links-about">
+                        <a href="https://lafilleducode.itch.io/" title="Itch.io" target="_blank"><i class="fa-brands fa-itch-io"></i> Itch.io</a>
+                        <a href="https://www.youtube.com/@LaFilleDuCode" title="YouTube" target="_blank"><i class="fa-brands fa-youtube"></i> YouTube</a>
+                    </div>
+                </div>
+                
+                <div class="skills-wrapper" id="skills">
+                    <h3>Technologies & Outils</h3>
+                    
+                    <div class="skill-category">
+                        <h4>Langages</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag"><i class="fa-solid fa-c" style="color: #2225ec;"></i> C, C++, C#</span>
+                            <span class="skill-tag"><i class="fa-brands fa-java" style="color: #c50c0c;"></i> Java</span>
+                            <span class="skill-tag"><i class="fa-brands fa-python" style="color: #fdbf07;"></i> Python</span>
+                            <span class="skill-tag"><i class="fa-solid fa-bullseye" style="color: #0276bc;"></i> Dart</span>
+                            <span class="skill-tag"><i class="fa-solid fa-file-code" style="color: #60c5ff;"></i> GDScript</span>
+                            <span class="skill-tag"><i class="fa-brands fa-html5" style="color: #E34F26;"></i> HTML/CSS</span>
+                            <span class="skill-tag"><i class="fa-brands fa-js" style="color: #F7DF1E;"></i> JavaScript</span>
+                            <span class="skill-tag"><i class="fa-solid fa-database" style="color: #ff0000;"></i> PLSQL</span>
+                            <span class="skill-tag"><i class="fa-solid fa-server" style="color: #ff0000;"></i> MySQL</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Logiciels & Moteurs</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag"><i class="fa-solid fa-cube" style="color: #009eff;"></i> Godot</span>
+                            <span class="skill-tag"><i class="fa-brands fa-git-alt" style="color: #F05032;"></i> Git</span>
+                            <span class="skill-tag"><i class="fa-brands fa-github" style="color: #ffffff;"></i> GitHub</span>
+                            <span class="skill-tag"><i class="fa-solid fa-mobile-screen" style="color: #02569B;"></i> Flutter</span>
+                            <span class="skill-tag"><i class="fa-brands fa-apple" style="color: #0071e3;"></i> Xcode</span>
+                            <span class="skill-tag"><i class="fa-brands fa-docker" style="color: #2496ed;"></i> Docker</span>
+                            <span class="skill-tag"><i class="fa-solid fa-diagram-project" style="color: #EA4B71;"></i> N8n</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION PROJETS (Études de cas) -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mes Derniers Projets</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="projects-wrapper">
+                
+                <!-- PROJET 1 -->
+                <article class="project-case">
+                    <div class="project-image">
+                        <img src="https://placehold.co/800x500/5c3d2a/ffebcc?text=Galactic+Speed" alt="Galactic Speed">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-type">Jeu Arcade (Solo)</div>
+                        <h3 class="project-title">Galactic Speed</h3>
+                        
+                        <div class="project-description">
+                            <p>un jeu d'action spatial d'arcade ultra-rapide où votre mouvement est votre arme !
+                                Pilotez un vaisseau spatial à grande vitesse qui laisse une traînée d'énergie cinétique dans son sillage. Votre but ? Encercler les astéroïdes en dessinant une boucle fermée autour d'eux pour les réduire en poussière cosmique !</p>
+                        </div>
+                        
+                        <div class="project-tech">
+                            <span>Godot</span>
+                            <span>Pixel Art</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://lafilleducode.itch.io/vitesse-galactique" class="project-link play-link" target="_blank"><i class="fa-brands fa-itch-io"></i> Jouer sur Itch</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- PROJET 2 (Inversé) -->
+                <article class="project-case reversed">
+                    <div class="project-image">
+                        <img src="https://placehold.co/800x500/5c3d2a/ffebcc?text=A+Cozy+Fold" alt="A Cozy Fold">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-type">Jeu de Puzzle</div>
+                        <h3 class="project-title">A Cozy Fold</h3>
+                        
+                        <div class="project-description">
+                            <p>Réalisé en moins de 2 jours, avec un thème imposé : le rangement, et un objet spécial : une couverture.
+                                Par Abyss Studio</p>
+                        </div>
+                        
+                        <div class="project-tech">
+                            <span>Godot</span>
+                            <span>Dessin</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://lafilleducode.itch.io/a-cozy-fold" class="project-link play-link" target="_blank"><i class="fa-brands fa-itch-io"></i> Jouer sur Itch</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- PROJET 3 -->
+                <article class="project-case">
+                    <div class="project-image">
+                        <img src="https://placehold.co/800x500/5c3d2a/ffebcc?text=Classe+Verte" alt="Classe Verte">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-type">Action</div>
+                        <h3 class="project-title">Classe Verte</h3>
+                        
+                        <div class="project-description">
+                            <p>Dans cette aventure, vous incarnez Joe, le super conducteur de bus. Il doit ce jour ci emmener des élèves en classe verte, mais tout ne se passe pas comme prévu.
+                                Il décide de passer par une forêt afin de montrer aux enfants la beauté de la nature, mais c'est comme si les cauchemars des enfants s'étaient réalisés.
+                                Affrontez ensemble les horreurs que contiennent cette forêt et prouvez que vous méritez d'en sortir !</p>
+                        </div>
+                        
+                        <div class="project-tech">
+                            <span>Godot</span>
+                            <span>Pixel Art</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://lafilleducode.itch.io/classe-verte" class="project-link play-link" target="_blank"><i class="fa-brands fa-itch-io"></i> Jouer sur Itch</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-box">
+                <h2>Envie de collaborer ?</h2>
+                <p>Je suis actuellement ouverte à de nouvelles opportunités. Que vous ayez une question, un projet ou juste envie de dire bonjour, n'hésitez pas !</p>
+                <a href="mailto:ton-email@exemple.com" class="btn btn-primary btn-large"><i class="fa-solid fa-envelope"></i> Discutons ensemble</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 LaFilleDuCode. Conçu et codé avec passion <i class="fa-solid fa-heart" style="color: var(--accent-color);"></i></p>
+            <div class="footer-links">
+                <a href="https://github.com/LaFilleDuCode" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://lafilleducode.itch.io/" target="_blank"><i class="fa-brands fa-itch-io"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
